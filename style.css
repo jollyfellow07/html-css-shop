@@ -2,13 +2,26 @@
     margin: 0;
     box-sizing: border-box;
 }
-/*prima riga di immagini*/
-.ipad {
+/*margini*/
+.contenitore{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+}
+.contenitore-2{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+/*immagini*/
+.prodotto {
     display: inline-block;
     position: relative;
     top: 0px;
     left: 0px;
+
 }
+
 /*rettangolo sconto in alto a destra della foto*/
 .sconto{
     display: inline-block;
@@ -29,6 +42,7 @@
 */
 /*colore sconto*/
 .verde{
+  
     background-color: green;
 }
 .rosso{
